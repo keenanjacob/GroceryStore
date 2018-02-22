@@ -30,7 +30,7 @@ int main()
         else
         {
         cin>>item;
-        cout<< "You'll need a bigger list!";
+        cout<< "You'll need a bigger list!"<<endl;
         }
     
     }
