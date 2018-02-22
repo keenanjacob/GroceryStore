@@ -20,17 +20,18 @@ int main()
   cin>>input;
     if (input== 'a' || input== 'A')
     {
-    if (numItems<5)
-    {
-    cout<<"What is the item?"<<endl;
-    cin>>item;
-    list[numItems]=item;
-    numItems++;
-    }
-    else
-    {
-    cout<< "You'll need a bigger list!";
-    }
+    cout<< "What is the item?"<<endl;
+        if (numItems<5)
+        {
+        cin>>item;
+        list[numItems]=item;
+        numItems++;
+        }
+        else
+        {
+        cin>>item;
+        cout<< "You'll need a bigger list!";
+        }
     
     }
 
