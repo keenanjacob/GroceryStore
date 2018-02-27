@@ -37,6 +37,8 @@ int main()
         } 
         while(!(input=='Q'|| input=='q'));
 
+        cout<<"==ITEMS TO BUY=="<<endl;
+
         for (int i=0; i<5; i++)
         {
                 cout<<i+1<< " " <<list[i]<<endl;
