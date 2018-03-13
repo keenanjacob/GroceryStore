@@ -32,7 +32,7 @@ int main()
                 cout<< "==ITEMS TO BUY=="<<endl;
                 for( int i = 0; i < list.size(); i++)
                 {
-                        cout<<list.at(i)<<endl;
+                        cout<<i+1<< " "<<list.at(i)<<endl;
                 }
 
         }
